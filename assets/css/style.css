@@ -1,3 +1,31 @@
 header {
-    background: #ffffff;
+    background-color: #ffffff;
+    border: 10px, #cccccc;
+}
+
+body {
+    background-color: #ffffff;
+    border: 10px;
+    border-color: #dddddd;
+}
+
+h1 {
+    background: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.wrapper:after{
+    font-display: block;
+    clear: both;
+}
+
+img {
+    float: left;
+    margin: 5px;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 5px;
+    background-color: #918b8b; 
 }
